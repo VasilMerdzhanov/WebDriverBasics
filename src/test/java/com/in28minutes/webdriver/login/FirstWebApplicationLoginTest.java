@@ -12,10 +12,10 @@ public class FirstWebApplicationLoginTest extends AbstractChromeWebDriverTest{
 	  driver.get("https://www.abv.bg/");
 	  
 	  WebElement nameElement = driver.findElement(By.name("username"));
-	  nameElement.sendKeys("sparks14");
+	  nameElement.sendKeys("****");
 	  
 	  WebElement passwordElement = driver.findElement(By.id("password"));
-	  passwordElement.sendKeys("hugoboss23");
+	  passwordElement.sendKeys("******");
 	  
 	  WebElement submitElement = driver.findElement(By.id("loginBut"));
 	  submitElement.click();
